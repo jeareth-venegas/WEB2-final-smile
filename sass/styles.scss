@@ -1,0 +1,25 @@
+/*Breakpoints*/
+@import 'Breakpoints/all';
+
+/*Componentes*/
+@import 'components/buttons';
+
+/*Configuracion*/
+@import 'config/mixins';
+@import 'config/settings';
+
+/*normalize*/
+@import 'library/normalize';
+
+/*Partials*/
+@import 'partials/helpers';
+@import 'partials/global';
+@import 'partials/menu';
+@import 'partials/slider';
+@import 'partials/inclusive';
+@import 'partials/people';
+@import 'partials/boxes';
+@import 'partials/hands';
+@import 'partials/posters';
+@import 'partials/subscribe';
+@import 'partials/footer';
