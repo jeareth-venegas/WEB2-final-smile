@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap");
 /*Breakpoints*/
 /*Componentes*/
 /*Configuracion*/
@@ -313,3 +314,9 @@ template {
   content: "";
   clear: both;
   display: table; }
+
+body {
+  font-family: 'Raleway', sans-serif; }
+
+h1 {
+  font-family: 'Montserrat', sans-serif; }
