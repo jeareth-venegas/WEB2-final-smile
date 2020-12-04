@@ -1,0 +1,45 @@
+.template{
+    width: 100%;
+    max-width: 100%;
+    padding-top: 5.438%;
+}
+
+.title1{
+    @include fontfamily1;
+    text-align: center;
+    font-size:3.125em;
+    padding:0% 34.188% 0% 34.125%;
+}
+
+.title2{
+    @include fontfamily1;
+    text-align: center;
+    font-weight: bold;
+    font-size: 3.125em;
+    padding:0% 33.063% 0% 32.813%;
+    margin-bottom: 2.938%;
+}
+
+.title3{
+    @include fontfamily1;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.25;
+    padding: 0% 29.75% 0% 29.75%;
+    margin-bottom: 2.75%;
+}
+
+hr {
+    height: 2px;
+    width: 5%;
+    background-color: $black;
+    margin: 0% 47.313% 3.75% 47.438%;
+}
+
+.text{
+    @include fontfamily1;
+    text-align: center;
+    font-size: 1.25em;
+    padding: 0% 18.75% 0% 20%;
+    margin-bottom: 2.75%;
+}

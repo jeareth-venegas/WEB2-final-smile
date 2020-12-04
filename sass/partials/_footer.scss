@@ -1,0 +1,30 @@
+.footer{
+    background-color: $footer;
+    padding-top: 2.375%; padding-bottom: 2.375%;
+    padding-right: 5%; padding-left: 5%;
+}
+
+.footer p{
+    @include fontfamily1;
+    font-weight: bold;
+    font-size: 1em;
+    color:$black;
+    float:left;
+    width: 50%;
+    
+
+}
+
+.footer-list{
+    float: right;
+    width:50%;
+    margin-top: 0; margin-bottom: 0;
+    padding-left: 0;
+}
+
+.footer-list li{
+    list-style: none;
+    text-decoration: none;
+    float: left;
+    margin-left: 7%;
+}

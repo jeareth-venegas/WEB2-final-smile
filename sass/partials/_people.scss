@@ -1,0 +1,38 @@
+.banner{
+    width: 100%; height:40.5%;
+    max-width: 100%;
+    margin-top: 6.188%;
+    background-color:$banner;
+}
+
+.banner-text{
+    width:50%; height:100%;
+    float:left;
+    display: block;
+} .banner-text p{
+    font-size: 2.25em;
+    font-weight: bold;
+    @include fontfamily1;
+    padding: 18.563% 25.563% 6.125% 12.25%;
+    text-align: start;
+}
+
+.text2{
+    font-size: 2.25em;
+    text-align: start;
+    padding: 0% 25.563% 0.438% 12.25%;
+}
+
+.text3{
+    font-size: 2.25em;
+    text-align: start;
+    padding: 0% 25.563% 0.438% 12.25%;
+}
+
+.banner-img{
+    display:block;
+}.banner-img img{
+    float:right;
+}
+
+/*indicadores*/

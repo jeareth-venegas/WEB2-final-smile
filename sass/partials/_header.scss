@@ -1,0 +1,37 @@
+/*HEADER*/
+
+.header{
+    width:100%;
+    max-width: 100%;
+    padding: 3.125%, 0%, 52.563%, 0%;
+} .header h2{
+    @include fontfamily2;
+    float: left;
+    background-color:$black;
+    padding: 1.313% 1.688%;
+    margin-left: 12.313%;
+} .header h4{
+    @include fontfamily2;
+    margin-top: 3%;
+    margin-right: 12.5%;
+} .header a{
+    color:$white;
+    text-decoration: none;
+} .header a h2{
+    font-size: 1.875em;
+} .header a h4{
+    font-size: 1.25em;
+} .header a h4{
+    /*líneas*/
+    border-top: solid 5px $white;
+    border-bottom: solid 5px $white;
+} .header h4 a:hover{
+    color:$menu-hover;
+}
+
+.head{
+    width:100%;
+    max-width: 100%;
+    background-image: url("../../img/teddy.png");
+    background-size: cover;
+}
