@@ -1,0 +1,39 @@
+.title-reasons{
+    @include fontfamily1;
+    font-size: 3.7em;
+    padding: 0% 0% 0% 5.25%;
+}
+
+hr {
+    height: 2px;
+    width: 5%;
+    background-color: $black;
+    margin: 2.5% 88.438% 5.813% 5.25%;
+}
+
+.content{
+    padding: 0% 5.25% 3.625% 5.25%;
+} .content h3{
+    @include fontfamily1;
+    font-size: 1.875em;
+    padding:2.688% 8.813% 2.688% 6.100%;
+} .content p{
+    padding:0% 22.813% 2.688% 6.100%;
+    @include fontfamily1;
+    font-weight: bold;
+}
+
+.fila1 .fila2{
+    max-width: 100%;
+}
+
+.box1 .box3{
+    float: left;
+    width: 100%;
+}
+
+.box2 .box4{
+    float: right;
+    border: solid 1px gray;
+}
+
