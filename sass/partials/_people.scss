@@ -10,14 +10,15 @@
     float:left;
     display: block;
 } .banner-text p{
+    color:$black;
     font-size: 2.25em;
-    font-weight: bold;
     @include fontfamily1;
     padding: 18.563% 25.563% 6.125% 12.25%;
     text-align: start;
 }
 
 .text2{
+    font-weight: bold;
     font-size: 2.25em;
     text-align: start;
     padding: 0% 25.563% 0.438% 12.25%;
@@ -33,6 +34,7 @@
     display:block;
 }.banner-img img{
     float:right;
+    width:50%
 }
 
 /*indicadores*/

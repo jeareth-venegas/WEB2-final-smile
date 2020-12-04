@@ -390,10 +390,10 @@ template {
 .header h4 a:hover {
   color: #000000a8; }
 
-.head {
+.head img {
   width: 100%;
   max-width: 100%;
-  background-image: url("../../img/teddy.png");
+  /*background-image: url("../../img/teddy.png");*/
   background-size: cover; }
 
 .template {
@@ -434,7 +434,8 @@ hr {
   text-align: center;
   font-size: 1.25em;
   padding: 0% 18.75% 0% 20%;
-  margin-bottom: 2.75%; }
+  margin-bottom: 2.75%;
+  color: #000000; }
 
 .banner {
   width: 100%;
@@ -450,13 +451,14 @@ hr {
   display: block; }
 
 .banner-text p {
+  color: #000000;
   font-size: 2.25em;
-  font-weight: bold;
   font-family: 'Raleway', sans-serif;
   padding: 18.563% 25.563% 6.125% 12.25%;
   text-align: start; }
 
 .text2 {
+  font-weight: bold;
   font-size: 2.25em;
   text-align: start;
   padding: 0% 25.563% 0.438% 12.25%; }
@@ -470,22 +472,23 @@ hr {
   display: block; }
 
 .banner-img img {
-  float: right; }
+  float: right;
+  width: 50%; }
 
 /*indicadores*/
 .title-reasons {
   font-family: 'Raleway', sans-serif;
   font-size: 3.7em;
-  padding: 0% 0% 0% 5.25%; }
+  padding: 0 0 0 5.25%; }
 
-hr {
+.title-reasons hr {
   height: 2px;
   width: 5%;
   background-color: #000000;
   margin: 2.5% 88.438% 5.813% 5.25%; }
 
 .content {
-  padding: 0% 5.25% 3.625% 5.25%; }
+  padding: 0 5.25% 3.625% 5.25%; }
 
 .content h3 {
   font-family: 'Raleway', sans-serif;
@@ -493,9 +496,10 @@ hr {
   padding: 2.688% 8.813% 2.688% 6.100%; }
 
 .content p {
-  padding: 0% 22.813% 2.688% 6.100%;
+  padding: 0 22.813% 2.688% 6.100%;
   font-family: 'Raleway', sans-serif;
-  font-weight: bold; }
+  font-weight: bold;
+  color: #000000; }
 
 .fila1 .fila2 {
   max-width: 100%; }
@@ -507,6 +511,67 @@ hr {
 .box2 .box4 {
   float: right;
   border: solid 1px gray; }
+
+.content-hands {
+  background-image: url("../../img/hands1.png");
+  background-size: cover; }
+
+.hands-text h2, p, a {
+  color: #ffffff; }
+
+.hands-text h2 {
+  font-size: 1.875em;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  padding: 12.5% 23.125% 3.875% 23.125%; }
+
+.hands-text p {
+  font-size: 1.25em;
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+  padding: 0% 38.25% 10.625% 39.75%; }
+
+.content-poster {
+  background-color: #f3f4f5; }
+
+.poster-title h2 {
+  color: #000000;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3.75em;
+  margin-bottom: 1.75%; }
+
+.poster-title hr {
+  height: 2px;
+  width: 5%;
+  background-color: #000000;
+  margin: 2.5% 88.438% 5.813% 5.25%; }
+
+.p-img1 {
+  background-image: url(../../img/suit.png);
+  background-size: cover;
+  float: left;
+  width: 40%;
+  margin-right: 6%;
+  padding-top: 54.300%;
+  display: block; }
+
+.p-img1 h2 {
+  color: #ffffff;
+  font-family: Arial, Helvetica, sans-serif; }
+
+.p-img1:hover {
+  /* background-image: url(../../img/share.png);
+    height: 1.71%; width: 2.43%; */
+  background-color: rgba(0, 0, 0, 0.466); }
+
+.p-img1 .buy-share1 {
+  font-size: 1.25em;
+  letter-spacing: 2px;
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  text-decoration: none;
+  display: none;
+  padding: 0 0 6% 6%; }
 
 .subs-content {
   font-family: 'Montserrat', sans-serif;
