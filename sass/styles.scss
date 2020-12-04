@@ -2,12 +2,13 @@
 /*Breakpoints*/
 @import 'Breakpoints/all';
 
-/*Componentes*/
-@import 'components/buttons';
-
 /*Configuracion*/
 @import 'config/mixins';
 @import 'config/settings';
+/*Componentes*/
+@import 'components/buttons';
+
+
 
 /*normalize*/
 @import 'library/normalize';

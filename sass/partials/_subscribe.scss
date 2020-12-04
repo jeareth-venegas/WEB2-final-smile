@@ -46,16 +46,4 @@
     border: none;
     width: 50%;
     margin-left: 20%; margin-bottom: 5.125%;
-} .btn-submit{
-    @include fontfamily2;
-    font-size: 1em;
-    font-weight: bold;
-    text-align: center;
-    border: solid 1px $black;
-    background-color:$white;
-    padding: 3.75% 6.688% 3.75% 6.688%;
-}  .btn-submit:hover{
-    background-color: $black;
-    border: solid 1px $black;
-    color: $white;
 }
