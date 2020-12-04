@@ -1,0 +1,18 @@
+.content-hands{
+    background-image: url("../../img/hands1.png");
+    background-size: cover;
+}
+
+.hands-text h2, p, a{
+    color:$white;
+} .hands-text h2{
+    font-size: 1.875em;
+    @include fontfamily2;
+    text-align:center;
+    padding: 12.5% 23.125% 3.875% 23.125%;
+} .hands-text p{
+    font-size: 1.25em;
+    @include fontfamily1;
+    text-align:center;
+    padding: 0% 38.25% 10.625% 39.75%;
+}
