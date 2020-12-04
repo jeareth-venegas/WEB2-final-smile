@@ -393,8 +393,16 @@ template {
 .head img {
   width: 100%;
   max-width: 100%;
-  /*background-image: url("../../img/teddy.png");*/
+  background-image: url("../../img/teddy.png");
   background-size: cover; }
+
+.header-text h1 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 13.75em; }
+
+.header-text p {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 4em; }
 
 .template {
   width: 100%;
@@ -550,9 +558,10 @@ hr {
   background-image: url(../../img/suit.png);
   background-size: cover;
   float: left;
-  width: 40%;
+  width: 559px;
+  height: 757px;
   margin-right: 6%;
-  padding-top: 54.300%;
+  padding-top: 54px;
   display: block; }
 
 .p-img1 h2 {
@@ -560,8 +569,6 @@ hr {
   font-family: Arial, Helvetica, sans-serif; }
 
 .p-img1:hover {
-  /* background-image: url(../../img/share.png);
-    height: 1.71%; width: 2.43%; */
   background-color: rgba(0, 0, 0, 0.466); }
 
 .p-img1 .buy-share1 {
@@ -569,9 +576,43 @@ hr {
   letter-spacing: 2px;
   font-family: 'Montserrat', sans-serif;
   color: #ffffff;
-  text-decoration: none;
-  display: none;
   padding: 0 0 6% 6%; }
+
+.p-img1 .buy-share1 a {
+  text-decoration: none; }
+
+.buy-share1 .share1 {
+  float: right;
+  padding-right: 6%; }
+
+.p-img2 {
+  float: left;
+  width: 53%; }
+
+.p-img2 {
+  background-image: url("../../img/stone.png");
+  background-size: cover;
+  margin-bottom: 3.925%;
+  width: 53%;
+  height: 367px;
+  font-family: 'Times New Roman', Times, serif; }
+
+.p-img2:hover {
+  background-color: rgba(0, 0, 0, 0.466); }
+
+.p-img2 .buy-share2 {
+  font-size: 1.25em;
+  letter-spacing: 2px;
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  padding: 0 0 4.300% 6%; }
+
+.p-img2 .buy-share2 a {
+  text-decoration: none; }
+
+.buy-share2 .share2 {
+  float: right;
+  padding-right: 6%; }
 
 .subs-content {
   font-family: 'Montserrat', sans-serif;

@@ -32,6 +32,14 @@
 .head img{
     width:100%;
     max-width: 100%;
-    /*background-image: url("../../img/teddy.png");*/
+    background-image: url("../../img/teddy.png");
     background-size: cover;
+}
+
+.header-text h1{
+    @include fontfamily1;
+    font-size:13.75em;
+} .header-text p{
+    @include fontfamily2;
+    font-size:4em;
 }
