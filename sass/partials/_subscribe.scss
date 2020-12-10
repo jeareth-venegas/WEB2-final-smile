@@ -1,15 +1,21 @@
 .subs-content{
-    @include fontfamily2;
+    @include fontfamily1;
     padding-right: 3%;
     padding-left: 3%;
     margin-bottom: 5%;
 }
 
-.box{
+.caja{
     float:left;
     width:25%;
     margin:0;
+}
+
+.box{
     list-style: none;
+}
+.box ul{
+    margin-top: 0;
 }
 
 .box li{
@@ -20,16 +26,27 @@
 .box a{
     text-decoration: none;
     color: $black;
+    font-weight: bold;
 }
 
-.box h4{
-    padding-top: 30.063%;
-    padding-bottom: 25.063%;
+.subs-content h4{
+    padding-top: 8.64%;
+    padding-bottom: 4%;
+    @include fontfamily2;
 }
 
-.box p{
+.box{
     color: $black;
     font-size:1em;
+    margin-bottom: 3.438%;
+    padding-right: 40.375%;
+    line-height: 255%;
+}
+
+.caja p{
+    color: $black;
+    font-size:1em;
+    font-weight: bold;
     margin-bottom: 3.438%;
     padding-right: 40.375%;
     line-height: 255%;
@@ -38,12 +55,11 @@
 .subscribe form{
     padding-right: 20.375%;
     margin-bottom: 2.063%;
-} .subscribe p{
-    margin-left: 20%;
 } .text-submit{
     background-color: $footer;
     color: $inputext;
+    font-weight: bold;
     border: none;
-    width: 50%;
-    margin-left: 20%; margin-bottom: 5.125%;
+    width: 340px; height: 39px;
+    margin-bottom: 5.125%;
 }
