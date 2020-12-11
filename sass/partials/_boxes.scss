@@ -12,9 +12,9 @@
 }
 
 
-/*.content{
+.content{
     padding: 0 5.25% 3.625% 5.25%;
-} */
+} 
 .content h2{
     font-size: 3.75rem; 
     margin-top: 0;
@@ -22,7 +22,6 @@
 .content h3{
     @include fontfamily1;
     font-size: 1.875em;
-    padding:2.688% 8.813% 2.688% 6.100%;
 } 
 .fila1, .fila2 p{
     padding:0 22.813% 2.688% 6.100%;
@@ -53,14 +52,13 @@
     color:$black;
 }
 
-/*.content .p-1{
+.content .p-1{
     border-top: 1px solid #DCDCDC;
     border-bottom: 1px solid #DCDCDC;
     border-right: 1px solid #DCDCDC;
 } .content .p-2{
     border-bottom: 1px solid #DCDCDC;
     border-right: 1px solid #DCDCDC;
-    padding-top: 0.230rem;
 } .content .p-3{
     padding-bottom: 2.5%;
     border-top: 1px solid #DCDCDC;
@@ -70,6 +68,5 @@
     margin: 0;
 }.content .p-4{
     border-bottom: 1px solid #DCDCDC;
-    padding-left: 17%;
-    padding-bottom: 3.9%;
-}*/
+
+}

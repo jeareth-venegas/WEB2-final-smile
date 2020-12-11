@@ -9,127 +9,6 @@
   .template-text .title3 {
     font-size: 1.25em; } }
 
-/*
-  //Contenido3
-  .subcontenidos{
-    width: 99%;
-    height: 200px;
-  }
-  #contenido3 .buttom{
-    margin: 4% 0% 8.5% 30.313%;
-  }
-  //contenido4
-  #contenido4 h2{
-    @include fontsize(30px);
-  }
-  #contenido4 p{
-    @include fontsize(12px);
-  }
-  //contenido5
-  // traje
-  #subsub1{
-    width: 100%;
-    margin-right: 0%;
-    padding-top: 190.300%;
-  }
-  #subsub1:hover{
-    padding-top: 180%;
-    .subsubsub1{
-      display: block;
-    }
-  }
-  // fin traje
-  #subsub2{
-    width: 100%;
-    margin-top: 10%;
-    margin-bottom: 10%;
-  }
-  // cafe
-  #subsub2 #subcafe:hover{
-    padding-top: 45%;
-    .subsubsub1{
-      display: block;
-    }
-  }
-  #subsub2 #subcafe .subsubsub1{
-    @include fontsize(10px);
-  }
-  #subsub2 #subcafe .subsubsub1 a{
-    color: $negro;
-  }
-  //fin cafe
-
-  //lentes
-  #subsub2 #sublentes:hover{
-    padding-top: 45%;
-    .subsubsub1{
-      display: block;
-    }
-  }
-  #subsub2 #sublentes .subsubsub1{
-    @include fontsize(10px);
-  }
-  #subsub2 #sublentes .subsubsub1 a{
-    color: $negro;
-  }
-  // fin lentes
-
-  #contenido5 .buttom{
-    margin: 8% 0% 8.5% 26.813%;
-  }
-
-  #contenido5 .buttom a{
-    padding: 2.25% 3.875% 2.25% 3.875%;
-  }
-//prefooter
-#prefooter div{
-  float: left;
-  width: 100%;
-}
-#prefooter .foo{
-  width: 100%;
-}
-#prefooter ul li{
-  padding-bottom: 1.188%;
-}
-#prefooter .titulo1{
-  padding-top: 20.063%;
-  padding-bottom: 10.063%;
-}
-#prefooter .titulo2{
-  padding-top: 20.063%;
-  padding-bottom: 15.063%;
-}
-//suscri
-#prefooter #suscri .titulo2{
-  padding-top: 20.063%;
-  padding-bottom: 10.063%;
-  margin-left: 8%;
-  font-weight: 700;
-}
-#suscri p{
-  color:$negro;
-  margin-left: 8%;
-}
-#suscri input{
-  margin-left: 8%;
-}
-#suscri .buttom{
-  width: 80%;
-  margin-left: 8%;
-}
-#suscri .buttom a{
-  padding: 3.75% 6.688% 3.75% 6.688%;
-}
-//fin suscri
-//fin prefooter
-
-//footer
-#footer ul li{
-  float: left;
-  margin-left: 1%;
-}
-*/
 @media (max-width: 967px) {
   .banner-text {
     float: left;
@@ -172,7 +51,7 @@
   color: #000000;
   border: solid 1px #000000;
   border-radius: 5px;
-  padding: 2.25% 3.875% 2.25% 3.875%; }
+  padding: 17px 31px 17px 31px; }
 
 .button a:hover {
   background-color: #000000;
@@ -700,8 +579,7 @@ hr {
 
 .content h3 {
   font-family: 'Raleway', sans-serif;
-  font-size: 1.875em;
-  padding: 2.688% 8.813% 2.688% 6.100%; }
+  font-size: 1.875em; }
 
 .fila1, .fila2 p {
   padding: 0 22.813% 2.688% 6.100%;
@@ -711,14 +589,17 @@ hr {
 
 .fila1 {
   float: left;
-  padding-left: 5.21%;
-  width: 40%;
-  margin-bottom: 3.35%; }
+  padding-left: 6.25%;
+  width: 43.75%;
+  height: 290px;
+  margin-left: 70px; }
 
 .fila2 {
   float: right;
-  width: 40%;
-  margin-bottom: 4.35%; }
+  width: 43.75%;
+  padding-right: 6.25%;
+  height: 290px;
+  margin-left: 70px; }
 
 .clase p {
   color: #000000; }
@@ -730,8 +611,7 @@ hr {
 
 .content .p-2 {
   border-bottom: 1px solid #DCDCDC;
-  border-right: 1px solid #DCDCDC;
-  padding-top: 0.230rem; }
+  border-right: 1px solid #DCDCDC; }
 
 .content .p-3 {
   padding-bottom: 2.5%;
@@ -743,9 +623,7 @@ hr {
   margin: 0; }
 
 .content .p-4 {
-  border-bottom: 1px solid #DCDCDC;
-  padding-left: 17%;
-  padding-bottom: 3.9%; }
+  border-bottom: 1px solid #DCDCDC; }
 
 .content-hands {
   background-image: url("../../img/hands1.png");
@@ -885,52 +763,62 @@ a {
   float: right;
   padding-right: 6%; }
 
+/*traté de eliminar las imágenes y volverlas a poner y siguen igual con un hover
+extraño que les borré, deberían funcionar como las imagenes anteriores
+me borra el botón y parte del bloque de Subscribe*/
 .p-img3 {
-  float: left;
-  width: 44%;
-  padding-top: 50%;
-  margin-right: 6%;
+  float: right;
   background-image: url("../../img/coffee.png");
   background-size: cover; }
 
+.work {
+  font-size: 1.875em;
+  text-align: center;
+  margin-bottom: 180px; }
+
 .p-img3:hover {
-  box-shadow: rgba(0, 0, 0, 0.466);
-  padding-top: 46%; }
-
-.p-img3 .buy-share3 {
-  font-size: 1.25em;
-  letter-spacing: 2px;
-  font-family: 'Montserrat', sans-serif;
-  color: #000000;
-  padding: 0 0 4.300% 6%; }
-
-.p-img3 .buy-share3 a {
-  text-decoration: none; }
-
-.p-img4 {
-  float: left;
-  width: 330px;
-  height: 340px;
-  padding-top: 52%; }
-
-.p-img4 {
-  background-image: url("../../img/guy2.png");
-  background-size: cover;
-  background-color: #f3f4f5; }
-
-.p-img4:hover {
-  background-color: rgba(0, 0, 0, 0.466);
-  padding-top: 46%; }
-
-.p-img4 .buy-share4 {
-  font-size: 1.25em;
-  letter-spacing: 2px;
-  font-family: 'Montserrat', sans-serif;
-  color: #ffffff;
-  padding: 0 0 4.300% 6%; }
-
-.p-img4 .buy-share4 a {
-  text-decoration: none; }
+  box-shadow: rgba(0, 0, 0, 0.466); }
+  .p-img3:hover .buy {
+    display: inline; }
+  .p-img3:hover .share {
+    display: inline; }
+  .p-img3:hover .share3 {
+    display: inline; }
+  .p-img3:hover .p-img3 .buy-share3 {
+    font-size: 1.25em;
+    letter-spacing: 2px;
+    font-family: 'Montserrat', sans-serif;
+    color: #000000; }
+  .p-img3:hover .p-img3 .buy-share3 a {
+    text-decoration: none; }
+  .p-img3:hover .p-img4 {
+    background-image: url("../../img/guy2.png");
+    background-size: cover;
+    float: left;
+    width: 44%; }
+  .p-img3:hover .p-img4:hover {
+    box-shadow: rgba(0, 0, 0, 0.466); }
+  .p-img3:hover .golden {
+    padding-top: 8.30%;
+    padding-bottom: 49.3%; }
+    .p-img3:hover .golden .h3 {
+      font-size: 1.25em;
+      color: #ffffff;
+      text-align: center;
+      margin-bottom: 0; }
+    .p-img3:hover .golden .h2 {
+      font-size: 1.875em;
+      color: #ffffff;
+      text-align: center;
+      margin-top: 0; }
+  .p-img3:hover .p-img4 .buy-share4 {
+    font-size: 1.25em;
+    letter-spacing: 2px;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    padding: 0 0 4.300% 6%; }
+  .p-img3:hover .p-img4 .buy-share4 a {
+    text-decoration: none; }
 
 .subs-content {
   font-family: 'Raleway', sans-serif;
@@ -951,7 +839,8 @@ a {
 
 .box li {
   font-size: 1em;
-  padding-bottom: 7.188%; }
+  padding-bottom: 7.188%;
+  color: #000000; }
 
 .box a {
   text-decoration: none;
@@ -967,7 +856,7 @@ a {
   color: #000000;
   font-size: 1em;
   margin-bottom: 3.438%;
-  padding-right: 40.375%;
+  padding-right: 40.38%;
   line-height: 255%; }
 
 .caja p {
@@ -975,11 +864,11 @@ a {
   font-size: 1em;
   font-weight: bold;
   margin-bottom: 3.438%;
-  padding-right: 40.375%;
+  padding-right: 40.38%;
   line-height: 255%; }
 
 .subscribe form {
-  padding-right: 20.375%;
+  padding-right: 20.38%;
   margin-bottom: 2.063%; }
 
 .text-submit {
