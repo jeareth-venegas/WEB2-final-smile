@@ -2,7 +2,7 @@
 
 .button{
     margin: 4% 12% 8.5% 43.313%;
-} .button a{
+} .button .btn-poster{
     @include fontfamily2;
     text-decoration: none;
     text-align: center;
@@ -11,7 +11,7 @@
     border: solid 1px $black;
     border-radius: 5px;
     padding: 17px 31px 17px 31px;
-} .button a:hover{
+} .button .btn-poster:hover{
     background-color: $black;
     border: solid 1px $black;
     color: $white;
