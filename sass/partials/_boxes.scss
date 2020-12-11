@@ -11,8 +11,12 @@
     margin: 2.5% 88.438% 5.813% 5.25%;
 }
 
+
 .content{
     padding: 0 5.25% 3.625% 5.25%;
+} .content h2{
+    font-size: 3.75rem; 
+    margin-top: 0;
 } .content h3{
     @include fontfamily1;
     font-size: 1.875em;
@@ -24,17 +28,41 @@
     color:$black;
 }
 
-.fila1 .fila2{
-    max-width: 100%;
-}
-
-.box1 .box3{
+.fila1{
     float: left;
-    width: 100%;
+    padding-left: 5.21%;
+    width: 40%;
+    margin-bottom: 3.35%;
 }
 
-.box2 .box4{
+.fila2{
     float: right;
-    border: solid 1px gray;
+    width: 40%;
+    margin-bottom: 4.35%;
 }
 
+
+.clase p{
+    color:$black;
+}
+
+.content .p-1{
+    border-top: 1px solid #DCDCDC;
+    border-bottom: 1px solid #DCDCDC;
+    border-right: 1px solid #DCDCDC;
+} .content .p-2{
+    border-bottom: 1px solid #DCDCDC;
+    border-right: 1px solid #DCDCDC;
+    padding-top: 0.230rem;
+} .content .p-3{
+    padding-bottom: 2.5%;
+    border-top: 1px solid #DCDCDC;
+    border-bottom: 1px solid #DCDCDC;
+    padding-left: 12.642%
+} .content .p-3 p{
+    margin: 0;
+}.content .p-4{
+    border-bottom: 1px solid #DCDCDC;
+    padding-left: 17%;
+    padding-bottom: 3.9%;
+}

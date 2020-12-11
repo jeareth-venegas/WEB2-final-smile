@@ -1,4 +1,4 @@
-.content-poster{
+.bg-gray{
     background-color: $footer;
 }
 
@@ -7,30 +7,32 @@
     @include fontfamily2;
     font-size: 3.75em;
     margin-bottom:1.75%;
-} .poster-title hr {
+} 
+
+.poster-title hr {
     height: 2px;
     width: 5%;
     background-color: $black;
     margin: 2.5% 88.438% 5.813% 5.25%;
 }
 
+
 .p-img1{
     background-image: url(../../img/suit.png);
     background-size: cover;
     float: left;
-    width: 559px; height:757px;
+    width: 43%; height:757px;
     margin-right: 6%; padding-top: 54px;
     display:block;
     background-color: $footer;
+    
 } .p-img1 h2{
     color:$white;
     font-family: Arial, Helvetica, sans-serif;
-
-} .p-img1:hover{
-    background-color: rgba(0, 0, 0, 0.466);
-}
+} 
 
 .p-img1 .buy-share1 {
+    display:none;
     font-size: 1.25em;
     letter-spacing: 2px;
     @include fontfamily2;
@@ -41,6 +43,9 @@
 } .buy-share1 .share1{
     float: right;
     padding-right: 6%;
+}.p-img1 .buy-share1:hover{
+    background-color: rgba(0, 0, 0, 0.466);
+    display:block;
 }
 
 .p-img2{

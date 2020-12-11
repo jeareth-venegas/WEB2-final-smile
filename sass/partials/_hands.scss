@@ -9,10 +9,11 @@
     font-size: 1.875em;
     @include fontfamily2;
     text-align:center;
-    padding: 12.5% 23.125% 3.875% 23.125%;
+    padding-top: 12.5%;
 } .hands-text p{
     font-size: 1.25em;
     @include fontfamily1;
     text-align:center;
-    padding: 0% 38.25% 10.625% 39.75%;
+    padding-bottom: 10.375%;
+    margin-bottom: 0;
 }
