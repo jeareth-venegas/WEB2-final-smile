@@ -396,7 +396,6 @@ template {
 .header {
   width: 100%;
   max-width: 100%;
-  padding: 3.125%, 0, 52.563%, 0;
   position: relative; }
 
 .header .quotes {
@@ -559,72 +558,6 @@ hr {
   height: 652px; }
 
 /*indicadores*/
-.title-reasons {
-  font-family: 'Raleway', sans-serif;
-  font-size: 3.7em;
-  padding: 0 0 0 5.25%; }
-
-.title-reasons hr {
-  height: 2px;
-  width: 5%;
-  background-color: #000000;
-  margin: 2.5% 88.438% 5.813% 5.25%; }
-
-.content {
-  padding: 0 5.25% 3.625% 5.25%; }
-
-.content h2 {
-  font-size: 3.75rem;
-  margin-top: 0; }
-
-.content h3 {
-  font-family: 'Raleway', sans-serif;
-  font-size: 1.875em; }
-
-.fila1, .fila2 p {
-  padding: 0 22.813% 2.688% 6.100%;
-  font-family: 'Raleway', sans-serif;
-  font-weight: bold;
-  color: #000000; }
-
-.fila1 {
-  float: left;
-  padding-left: 6.25%;
-  width: 43.75%;
-  height: 290px;
-  margin-left: 70px; }
-
-.fila2 {
-  float: right;
-  width: 43.75%;
-  padding-right: 6.25%;
-  height: 290px;
-  margin-left: 70px; }
-
-.clase p {
-  color: #000000; }
-
-.content .p-1 {
-  border-top: 1px solid #DCDCDC;
-  border-bottom: 1px solid #DCDCDC;
-  border-right: 1px solid #DCDCDC; }
-
-.content .p-2 {
-  border-bottom: 1px solid #DCDCDC;
-  border-right: 1px solid #DCDCDC; }
-
-.content .p-3 {
-  padding-bottom: 2.5%;
-  border-top: 1px solid #DCDCDC;
-  border-bottom: 1px solid #DCDCDC;
-  padding-left: 12.642%; }
-
-.content .p-3 p {
-  margin: 0; }
-
-.content .p-4 {
-  border-bottom: 1px solid #DCDCDC; }
-
 .content-hands {
   background-image: url("../../img/hands1.png");
   background-size: cover; }
@@ -880,6 +813,73 @@ me borra el botón y parte del bloque de Subscribe*/
   height: 39px;
   margin-bottom: 5.125%; }
 
+.title-reasons {
+  font-family: 'Raleway', sans-serif;
+  font-size: 3.7em;
+  padding: 0 0 0 5.25%; }
+
+.title-reasons hr {
+  height: 2px;
+  width: 5%;
+  background-color: #000000;
+  margin: 2.5% 88.438% 5.813% 5.25%; }
+
+.content {
+  padding: 0 5.25% 3.625% 5.25%; }
+
+.content h2 {
+  font-size: 3.75rem;
+  margin-top: 0; }
+
+.content h3 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.875em; }
+
+.fila1, .fila2 p {
+  padding: 0 22.813% 2.688% 6.100%;
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+  color: #000000; }
+
+/*
+.fila1{
+    float: left;
+    padding-left: 6.25%;
+    width: 43.75%;
+    height: 290px;
+    margin-left: 70px;
+}
+
+.fila2{
+    float: right;
+    width: 43.75%;
+    padding-right: 6.25%;
+    height: 290px;
+    margin-left: 70px;
+}*/
+.clase p {
+  color: #000000; }
+
+/*
+.content .p-1{
+    border-top: 1px solid #DCDCDC;
+    border-bottom: 1px solid #DCDCDC;
+    border-right: 1px solid #DCDCDC;
+} .content .p-2{
+    border-bottom: 1px solid #DCDCDC;
+    border-right: 1px solid #DCDCDC;
+} .content .p-3{
+    padding-bottom: 2.5%;
+    border-top: 1px solid #DCDCDC;
+    border-bottom: 1px solid #DCDCDC;
+    padding-left: 12.642%
+} .content .p-3 p{
+    margin: 0;
+}.content .p-4{
+    border-bottom: 1px solid #DCDCDC;
+    padding-left: 17%;
+    padding-bottom: 3.9%;
+}*/
 .footer {
   background-color: #f3f4f5;
   padding-top: 2.375%;
