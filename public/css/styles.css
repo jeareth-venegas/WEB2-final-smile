@@ -43,6 +43,24 @@
 .button {
   margin: 4% 12% 8.5% 43.313%; }
 
+.button .btn-reasons {
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+  text-align: center;
+  font-weight: bold;
+  color: #000000;
+  border: solid 1px #000000;
+  border-radius: 5px;
+  padding: 17px 31px 17px 31px; }
+
+.button .btn-reasons:hover {
+  background-color: #000000;
+  border: solid 1px #000000;
+  color: #ffffff; }
+
+.button {
+  margin: 4% 12% 8.5% 43.313%; }
+
 .button .btn-poster {
   font-family: 'Montserrat', sans-serif;
   text-decoration: none;
