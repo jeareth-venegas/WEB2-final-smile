@@ -783,22 +783,43 @@ hr {
   margin: 2.5% 88.438% 5.813% 5.25%; }
 
 .p-img1 {
-  background-image: url(../../img/suit.png);
+  background-image: url("../../img/suit.png");
   background-size: cover;
   float: left;
   width: 43%;
   height: 757px;
   margin-right: 6%;
   padding-top: 54px;
-  display: block;
-  background-color: #f3f4f5; }
+  margin-bottom: 6.42%;
+  display: block; }
+
+.p-img1:hover {
+  box-shadow: rgba(0, 0, 0, 0.466); }
+  .p-img1:hover .buy {
+    display: inline; }
+  .p-img1:hover .share {
+    display: inline; }
+  .p-img1:hover .share1 {
+    display: inline; }
+
+.buy {
+  padding-left: 6.71%; }
+
+.share {
+  padding-left: 50%; }
 
 .p-img1 h2 {
   color: #ffffff;
-  font-family: Arial, Helvetica, sans-serif; }
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 5em;
+  text-align: center;
+  padding-top: 24.42%;
+  margin-bottom: 1.42%; }
+
+a {
+  display: none; }
 
 .p-img1 .buy-share1 {
-  display: none;
   font-size: 1.25em;
   letter-spacing: 2px;
   font-family: 'Montserrat', sans-serif;
@@ -808,31 +829,49 @@ hr {
 .p-img1 .buy-share1 a {
   text-decoration: none; }
 
+.buy-share1 {
+  padding-top: 20.42%;
+  padding-bottom: 11%; }
+
 .buy-share1 .share1 {
   float: right;
   padding-right: 6%; }
 
-.p-img1 .buy-share1:hover {
-  background-color: rgba(0, 0, 0, 0.466);
-  display: block; }
-
 .p-img2 {
-  float: left;
-  width: 53%; }
-
-.p-img2 {
-  background-image: url("../../img/stone.png");
-  background-size: cover;
-  margin-bottom: 3.925%;
-  width: 53%;
+  float: right;
+  width: 50%;
   height: 367px;
+  margin-bottom: 13.071%;
+  background-image: url("../../img/stone.png");
+  background-size: cover; }
+
+.title-stone {
+  color: #000000;
   font-family: 'Times New Roman', Times, serif;
-  background-color: #f3f4f5; }
+  font-size: 2.25em;
+  margin-bottom: 0;
+  margin-top: 0;
+  padding-left: 4%;
+  padding-top: 14%; }
+
+.p-stone {
+  color: #000000;
+  font-size: 1.25em;
+  padding-left: 4%;
+  padding-top: 5%;
+  margin-bottom: 0;
+  padding-bottom: 10%; }
 
 .p-img2:hover {
-  background-color: rgba(0, 0, 0, 0.466); }
+  box-shadow: rgba(0, 0, 0, 0.466); }
+  .p-img2:hover .buy {
+    display: inline; }
+  .p-img2:hover .share {
+    display: inline; }
+  .p-img2:hover .share2 {
+    display: inline; }
 
-.p-img2 .buy-share2 {
+.buy-share2 {
   font-size: 1.25em;
   letter-spacing: 2px;
   font-family: 'Montserrat', sans-serif;
@@ -848,17 +887,14 @@ hr {
 
 .p-img3 {
   float: left;
-  width: 24.14%;
-  padding-top: 53%; }
-
-.p-img3 {
-  background-image: url("../../img/coffee.png");
-  background-size: cover;
+  width: 44%;
+  padding-top: 50%;
   margin-right: 6%;
-  background-color: #f3f4f5; }
+  background-image: url("../../img/coffee.png");
+  background-size: cover; }
 
 .p-img3:hover {
-  background-color: rgba(0, 0, 0, 0.466);
+  box-shadow: rgba(0, 0, 0, 0.466);
   padding-top: 46%; }
 
 .p-img3 .buy-share3 {

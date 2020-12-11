@@ -18,51 +18,101 @@
 
 
 .p-img1{
-    background-image: url(../../img/suit.png);
+    background-image: url("../../img/suit.png");
     background-size: cover;
     float: left;
     width: 43%; height:757px;
     margin-right: 6%; padding-top: 54px;
+    margin-bottom: 6.42%;
     display:block;
-    background-color: $footer;
-    
-} .p-img1 h2{
-    color:$white;
-    font-family: Arial, Helvetica, sans-serif;
+
 } 
 
+.p-img1:hover{
+    box-shadow:rgba(0, 0, 0, 0.466);
+    .buy{
+        display: inline;
+    }.share{
+        display: inline;
+    }.share1{
+        display: inline;
+    }
+}
+
+.buy{
+    padding-left: 6.71%;
+} .share{
+    padding-left: 50%;
+}
+
+.p-img1 h2{
+    color:$white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 5em;
+    text-align: center;
+    padding-top: 24.42%; margin-bottom: 1.42%;
+} 
+
+a{
+    display: none;
+}
+
 .p-img1 .buy-share1 {
-    display:none;
     font-size: 1.25em;
     letter-spacing: 2px;
     @include fontfamily2;
     color:$white;
     padding: 0 0 6% 6%;
-} .p-img1 .buy-share1 a{
+} 
+.p-img1 .buy-share1 a{
     text-decoration: none;
-} .buy-share1 .share1{
+} 
+.buy-share1{
+    padding-top: 20.42%;
+    padding-bottom: 11%;
+}
+
+.buy-share1 .share1{
     float: right;
     padding-right: 6%;
-}.p-img1 .buy-share1:hover{
-    background-color: rgba(0, 0, 0, 0.466);
-    display:block;
 }
+
+
+
+
 
 .p-img2{
-    float: left;
-    width: 53%;
-} .p-img2{
+    float: right;
+    width: 50%; height: 367px;
+    margin-bottom: 13.071%;
     background-image: url("../../img/stone.png");
     background-size: cover;
-    margin-bottom: 3.925%; 
-    width: 53%; height: 367px;
+} 
+.title-stone{
+    color: $black;
     font-family: 'Times New Roman', Times, serif;
-    background-color: $footer;
-} .p-img2:hover{
-    background-color: rgba(0, 0, 0, 0.466);
+    font-size: 2.25em;
+    margin-bottom: 0; margin-top: 0;
+    padding-left: 4%; padding-top: 14%;
+} 
+.p-stone{
+    color: $black;
+    font-size: 1.25em;
+    padding-left: 4%; padding-top: 5%;
+    margin-bottom: 0; padding-bottom: 10%;
 }
 
-.p-img2 .buy-share2 {
+.p-img2:hover{
+    box-shadow: rgba(0, 0, 0, 0.466);
+    .buy{
+        display: inline;
+    }.share{
+        display: inline;
+    }.share2{
+        display: inline;
+    }
+}
+.buy-share2 {
     font-size: 1.25em;
     letter-spacing: 2px;
     @include fontfamily2;
@@ -75,19 +125,24 @@
     padding-right: 6%;
 }
 
+
+
 .p-img3{
     float: left;
-    width: 24.14%; 
-    padding-top: 53%;
-} .p-img3{
+    width: 330px; height:340px;
     background-image: url("../../img/coffee.png");
     background-size: cover;
-    margin-right: 6%;
-    background-color: $footer;
-} .p-img3:hover{
-    background-color: rgba(0, 0, 0, 0.466);
-    padding-top: 46%;
 } 
+
+.p-img3:hover{
+    box-shadow: rgba(0, 0, 0, 0.466);
+    .buy{
+        display: inline;
+    }.share{
+        display: inline;
+    }.share3{
+        display: inline;
+    }
 
 .p-img3 .buy-share3 {
     font-size: 1.25em;
@@ -104,13 +159,12 @@
     float: left;
     width: 330px; height: 340px;
     padding-top: 52%;
-} .p-img4{
     background-image: url("../../img/guy2.png");
     background-size: cover;
     background-color: $footer;
 } .p-img4:hover{
-    background-color: rgba(0, 0, 0, 0.466);
-    padding-top: 46%;
+    box-shadow: rgba(0, 0, 0, 0.466);
+
 } 
 
 .p-img4 .buy-share4 {
