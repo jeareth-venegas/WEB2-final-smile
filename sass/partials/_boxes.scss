@@ -12,16 +12,19 @@
 }
 
 
-.content{
+/*.content{
     padding: 0 5.25% 3.625% 5.25%;
-} .content h2{
+} */
+.content h2{
     font-size: 3.75rem; 
     margin-top: 0;
-} .content h3{
+} 
+.content h3{
     @include fontfamily1;
     font-size: 1.875em;
     padding:2.688% 8.813% 2.688% 6.100%;
-} .fila1, .fila2 p{
+} 
+.fila1, .fila2 p{
     padding:0 22.813% 2.688% 6.100%;
     @include fontfamily1;
     font-weight: bold;
@@ -30,23 +33,27 @@
 
 .fila1{
     float: left;
-    padding-left: 5.21%;
-    width: 40%;
-    margin-bottom: 3.35%;
+    padding-left: 6.25%;
+    width: 43.75%;
+    height: 290px;
+    margin-left: 70px;
 }
 
 .fila2{
     float: right;
-    width: 40%;
-    margin-bottom: 4.35%;
+    width: 43.75%;
+    padding-right: 6.25%;
+    height: 290px;
+    margin-left: 70px;
 }
+
 
 
 .clase p{
     color:$black;
 }
 
-.content .p-1{
+/*.content .p-1{
     border-top: 1px solid #DCDCDC;
     border-bottom: 1px solid #DCDCDC;
     border-right: 1px solid #DCDCDC;
@@ -65,4 +72,4 @@
     border-bottom: 1px solid #DCDCDC;
     padding-left: 17%;
     padding-bottom: 3.9%;
-}
+}*/

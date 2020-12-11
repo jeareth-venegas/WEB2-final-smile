@@ -126,13 +126,19 @@ a{
 }
 
 
-
+/*traté de eliminar las imágenes y volverlas a poner y siguen igual con un hover
+extraño que les borré, deberían funcionar como las imagenes anteriores
+me borra el botón y parte del bloque de Subscribe*/
 .p-img3{
-    float: left;
-    width: 330px; height:340px;
+    float: right;
     background-image: url("../../img/coffee.png");
     background-size: cover;
 } 
+.work{
+    font-size: 1.875em;
+    text-align: center;
+    margin-bottom: 180px;
+}
 
 .p-img3:hover{
     box-shadow: rgba(0, 0, 0, 0.466);
@@ -149,23 +155,36 @@ a{
     letter-spacing: 2px;
     @include fontfamily2;
     color:$black;
-    padding: 0 0 4.300% 6%;
 } .p-img3 .buy-share3 a{
     text-decoration: none;
 }
 
 
 .p-img4{
-    float: left;
-    width: 330px; height: 340px;
-    padding-top: 52%;
     background-image: url("../../img/guy2.png");
     background-size: cover;
-    background-color: $footer;
+    float: left;
+    width: 44%;
 } .p-img4:hover{
     box-shadow: rgba(0, 0, 0, 0.466);
-
 } 
+
+.golden{
+    padding-top: 8.30%;
+    padding-bottom: 49.3%;
+    .h3{
+        font-size: 1.25em;
+        color: $white;
+        text-align: center;
+        margin-bottom:0;
+    }
+    .h2{
+        font-size: 1.875em;
+        color: $white;
+        text-align: center;
+        margin-top:0;
+    }
+}
 
 .p-img4 .buy-share4 {
     font-size: 1.25em;
@@ -175,4 +194,5 @@ a{
     padding: 0 0 4.300% 6%;
 } .p-img4 .buy-share4 a{
     text-decoration: none;
+}
 }
