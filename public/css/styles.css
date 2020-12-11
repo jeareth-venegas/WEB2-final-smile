@@ -766,19 +766,13 @@ me borra el botón y parte del bloque de Subscribe*/
 
 .box {
   list-style: none; }
-
-.box ul {
-  margin-top: 0; }
-
-.box li {
-  font-size: 1em;
-  padding-bottom: 7.188%;
-  color: #000000; }
-
-.box a {
-  text-decoration: none;
-  color: #000000;
-  font-weight: bold; }
+  .box ul {
+    margin-top: 0; }
+  .box li {
+    font-size: 1em;
+    padding-bottom: 7.188%;
+    color: #000000;
+    font-weight: bold; }
 
 .subs-content h4 {
   padding-top: 8.64%;
@@ -812,6 +806,9 @@ me borra el botón y parte del bloque de Subscribe*/
   width: 340px;
   height: 39px;
   margin-bottom: 5.125%; }
+
+.subs-content a {
+  color: #000000; }
 
 .title-reasons {
   font-family: 'Raleway', sans-serif;
@@ -907,3 +904,8 @@ me borra el botón y parte del bloque de Subscribe*/
   text-decoration: none;
   float: left;
   margin-left: 7%; }
+
+/*las imagenes dejaron de aparecer*/
+.footer-list img + img {
+  padding-right: 4px;
+  padding-left: 4px; }

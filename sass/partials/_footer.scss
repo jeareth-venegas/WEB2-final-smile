@@ -28,3 +28,8 @@
     float: left;
     margin-left: 7%;
 }
+/*las imagenes dejaron de aparecer*/
+.footer-list img + img{
+    padding-right: 4px;
+    padding-left: 4px;
+}
